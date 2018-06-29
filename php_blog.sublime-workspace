@@ -1,0 +1,1214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"New",
+				"new"
+			],
+			[
+				"in",
+				"initiate"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"col-lg",
+				"col-lg-5"
+			],
+			[
+				"text-",
+				"text-center"
+			],
+			[
+				"Margin",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"st",
+				"sticky"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"day",
+				"dayOfWeek"
+			],
+			[
+				"Da",
+				"datetimediff"
+			],
+			[
+				"l",
+				"solid"
+			],
+			[
+				"b",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 10334,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\nclass NewClass  {\n\n\t//properties and methods\n\n\tpublic $name =  \"aosijdfasoidj\";\n}\n\n$initiate = new NewClass;\n?>\n<script>\nlet initiate = new NewClass();\nconsole.log(\"<?php var_dump($initiate)?>\");\n</script>",
+			"file": "post.php",
+			"file_size": 222,
+			"file_write_time": 131745029734236740,
+			"settings":
+			{
+				"buffer_size": 212,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass/custom.sass",
+			"settings":
+			{
+				"buffer_size": 2124,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSass\n----\n\n  Thank you for installing this Sass syntax highlighting package.\n  \n  For more information about this package please see:\n  \n  https://github.com/P233/Syntax-highlighting-for-Sass\n  \n  Cheers,\n  Peiwen Lu\n\n\nEmmet\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n\n\nSublimeCodeIntel\n----------------\n\n  SublimeCodeIntel\n  ================\n  \n   ____        _     _ _                 ____          _      ___       _       _\n  / ___| _   _| |__ | (_)_ __ ___   ___ / ___|___   __| | ___|_ _|_ __ | |_ ___| |\n  \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   / _ \\ / _` |/ _ \\| || '_ \\| __/ _ \\ |\n   ___) | |_| | |_) | | | | | | | |  __/ |__| (_) | (_| |  __/| || | | | ||  __/ |\n  |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|\\____\\___/ \\__,_|\\___|___|_| |_|\\__\\___|_|\n  A full-featured code intelligence and smart autocomplete engine for Sublime Text.\n     (Code intelligence plugin ported from Open Komodo Editor to Sublime Text)\n  \n  \n  +-------------------------------- HELP WANTED ---------------------------------+\n  |     Maintaining this project is hard, I do it in my spare time, but I'm      |\n  |     basically all alone. If anyone is interested in contributing, please     |\n  |     contact me. I really need much more help maintaining SublimeCodeIntel    |\n  |                                                                              |\n  |                       Follow me on twitter @germbravo                        |\n  |           You can find us at #sublimecodeintel on irc.freenode.net           |\n  |                                                                              |\n  |             If you like SublimeCodeIntel, please make a donation:            |\n  |        http://sublimecodeintel.github.io/SublimeCodeIntel/donate.html        |\n  +------------------------------------------------------------------------------+\n  \n  \n  Features\n  --------\n  \n  Supports all the languages Komodo Editor supports for Code Intelligence (CIX, CodeIntel2):\n  \n  JavaScript, Mason, XBL, XUL, RHTML, SCSS, Python, HTML, Ruby, Python3, XML, Sass, XSLT, Django, HTML5, Perl, CSS, Twig, Less, Smarty, Node.js, Tcl, TemplateToolkit, PHP.\n  \n  \n  Provides the following features:\n  \n  * Jump to Symbol Definition - Jump to the file and line of the definition of a symbol.\n  * Imports autocomplete - Shows autocomplete with the available modules/symbols in real time.\n  * Function Call tooltips - Displays information in the status bar about the working function.\n  \n  \n  + Shortcuts for jump to definition have changed:\n  \n    For Mac OS X:\n      * Jump to definition = ``Control+Click``\n      * Jump to definition = ``Control+Command+Alt+Up``\n      * Go back = ``Control+Command+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n    For Linux:\n      * Jump to definition = ``Super+Click``\n      * Jump to definition = ``Control+Super+Alt+Up``\n      * Go back = ``Control+Super+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n    For Windows:\n      * Jump to definition = ``Alt+Click``\n      * Jump to definition = ``Control+Windows+Alt+Up``\n      * Go back = ``Control+Windows+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n  \n  \n  Notes\n  -----\n  \n  ** Restart Sublime Text after reading this **\n  \n  \n  More information\n  ----------------\n  Please take the time to read the documentation:\n  \n  In case of trouble, please read the Troubleshooting section in the README.\n  \n  * Online - http://sublimecodeintel.github.io/SublimeCodeIntel/\n  * Git - https://github.com/SublimeCodeIntel/SublimeCodeIntel\n  \n  \n  IMPORTANT\n  ---------\n  \n  Do NOT edit the default SublimeCodeIntel settings. Your changes will be lost\n  when SublimeCodeIntel is updated. ALWAYS edit the user SublimeCodeIntel settings\n  by selecting \"Preferences->Package Settings->SublimeCodeIntel->Settings - User\".\n  Note that individual settings you include in your user settings will **completely**\n  replace the corresponding default setting, so you must provide that setting in its entirety.\n\n\nMaterial Theme - Appbar\n-----------------------\n\n  ___  ___      _            _       _       _____ _\n  |  \\/  |     | |          (_)     | |     |_   _| |\n  | .  . | __ _| |_ ___ _ __ _  __ _| |       | | | |__   ___ _ __ ___   ___\n  | |\\/| |/ _` | __/ _ \\ '__| |/ _` | |       | | | '_ \\ / _ \\ '_ ` _ \\ / _ \\\n  | |  | | (_| | ||  __/ |  | | (_| | |       | | | | | |  __/ | | | | |  __/\n  \\_|  |_/\\__,_|\\__\\___|_|  |_|\\__,_|_|       \\_/ |_| |_|\\___|_| |_| |_|\\___|\n  \n  Material Theme - White Panels Addon\n  https://github.com/equinusocio/material-theme-appbar\n  \n  ******************************************************************************\n  \n  With this addon you can add a tinted app bar to your Material Theme installation.\n  This addon auto fits with material theme accent colors!\n  \n  NOTE: If you've intalled 1.0.0 through Package Control please unistall and reinstall\n  \n  ## Addon options\n  \n  ```json\n  \"material_theme_tree_headings\": true , // Show siderbar headings\n  ```\n\n\nAdvancedNewFile\n---------------\n\n  Thank you for installing the AdvancedNewFile plugin.\n  \n  For more information please visit https://github.com/skuroda/Sublime-AdvancedNewFile.\n  \n  Note you may need to restart Sublime Text after installing this plugin.\n  \n  If you have any questions, comments, or run into issues, please let me know! Hope you enjoy the plugin.\n  \n  Thank you!\n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter\n  \n  Welcome to BracketHighlighter!  For a quick start guide, please go to  \n  `Preferences->Package Settings->BracketHighlighter->Quick Start Guide`.\n",
+			"settings":
+			{
+				"buffer_size": 7243,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 183.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package control",
+				"Package Control: Enable Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"autosave",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"git commit",
+				"git: commit"
+			],
+			[
+				"git status",
+				"git: status"
+			],
+			[
+				"git",
+				"GitHubinator"
+			],
+			[
+				"mate",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"mata",
+				"Material Theme: Configuration"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git op",
+				"github: open repo"
+			],
+			[
+				"gitl",
+				"git: log"
+			],
+			[
+				"branch",
+				"git: branch"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp2/htdocs/php-blog-uebung"
+	],
+	"file_history":
+	[
+		"/C/xampp2/htdocs/ptest/library/Frmwrk/Model.php",
+		"/C/xampp2/htdocs/ubung/css/style.css",
+		"/C/xampp2/htdocs/ubung/index.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp2/phpMyAdmin/changelog.php",
+		"/C/xampp/apache/conf/extra/httpd-xampp.conf",
+		"/C/xampp/apache/logs/access.log",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/MartinB134.github.io/Gastronomiebetrieb_SundD/index.html",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/ptest/.htaccess",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/ptest/db.sql",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/ptest/index.php",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/Post Übung/index.php",
+		"/c/xampp/php/logs/php_error_log",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/Post Übung/variables.php",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/MartinB134.github.io/ptest/.htaccess",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/Post Übung/first.php",
+		"/C/Users/Marti/AppData/Local/Temp/fz3temp-2/error.log.7",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/share/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/core/library/Contao/Input.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/core/library/Contao/StringUtil.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/core/library/Contao/User.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/core/models/FormModel.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/core/models/PageModel.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/core/models/StyleSheetModel.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/core/models/StyleModel.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/files/img/ico/favicon.ico",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/files/kurse/xaluzdnm.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/logs/email.log.6",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/js/5b45d659becc.js",
+		"/C/Users/Marti/Downloads/Save Sule/htdocs_old/sule/kfwuqwof.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/.htacces",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/logs/error.log.9",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/register/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/mootools/simplemodal/kfwuqwof.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/sule/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/config/localconfig.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/dma_elementgenerator/dca/tl_dma_eg_fields.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/css/a6b98d83b759.css",
+		"/C/Users/Marti/Downloads/Save Sule/htdocs/loges/hrumwkd.php",
+		"/C/Users/Marti/AppData/Local/Temp/fz3temp-2/a6b98d83b759.css",
+		"/C/Users/Marti/AppData/Local/Temp/fz3temp-2/index.html",
+		"/C/Users/Marti/Downloads/Save Sule/htdocs/loges/kfwuqwof.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/js/bb65a4103065.js",
+		"/C/Users/Marti/AppData/Local/Temp/fz3temp-2/40a8f109a32c.css",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/logs/error.log.1",
+		"/C/Users/Marti/AppData/Local/Temp/fz3temp-2/.gitignore",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/logs/email.log.1",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/logs/email.log.2",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/css/index.html",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/dma_elementgenerator/DMAElementGeneratorHiddenWidget.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/dma_elementgenerator/dca/tl_dma_eg.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/images/7/index.html",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/images/8/index.html",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/images/5/index.html",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/images/0/index.html",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/logs/email.log.7",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/logs/email.log.8",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/composer/browserconfig.xml",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/composer/apple-icon-76x76.png",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/composer/composer.phar",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/xtmembers_fieldeditor/config/autoload.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/repository/.skip",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/listing/config/autoload.ini",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/faq/assets/.htaccess",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/contao/confirm.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/matthiasmullie/minify/tests/css/sample/convert_relative_path/target/target/.gitignore",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/contao/main.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/contao/file.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/initialize.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/contao/install.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/.htaccess",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/oyejorge/less.php/lib/Less/Autoloader.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/oyejorge/less.php/lessc.inc.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/autoload.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/templates/index.html",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/files/img/ui-icons_ffffff_256x240.png",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/swiftmailer/swiftmailer/phpunit.xml.dist",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/original/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/composer.lock",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/tinymce4/plugins/image/plugin.min.js",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/dropzone/3.12.0/js/dropzone.min.js",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/js/index.html",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/original/index.html.bak.bak",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/js/999e4b969dd1.js",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/tinymce4/plugins/popelas.php.suspected",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/assets/tinymce4/tinymce.min.js",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/play/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/play/play.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/profil/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/re.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/tecnickcom/tcpdf/config/tcpdf_config.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/bin/pscss",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/favicon_0f1404.ico",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/junkers/sfdyofg.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/loges/hrumwkd.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/cgi-data/global/general.tpl",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/contao/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/bpfofus.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/aontoqm.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/cgi-data/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/cgi-data/verzeichnisschutz/verzeichnisschutz.sqlite",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/junkers/junkers.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/cgi-data/global/index.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/zap_templ9999/lujtten.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/zapgovno/caoonmu.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/iswakaw.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/zap_templ9999/ldnvblo.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/original/assets/js/ctlmeves.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/docs/templow.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/original/assets/fonts/wp-mails.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/check/locale/nl/ieatmxbf.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs_old/img/qroebles.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/leafo/scssphp/xxskocqv.php",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/vendor/leafo/scssphp/scss.inc.php",
+		"/C/Users/Marti/Downloads/view-save.phtml",
+		"/C/Users/Marti/AppData/Local/Temp/77f3544f-22df-4fff-9f49-c0bfb4358317/htdocs/system/modules/sule/templates/mod_course_search.html5",
+		"/C/Users/Marti/AppData/Local/Temp/fz3temp-2/view.phtml",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/MartinB134.github.io/Gastronomiebetrieb_SundD/css/style.css",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/MartinB134.github.io/Gastronomiebetrieb_SundD/Datenschutz.html",
+		"/C/Users/Marti/Google Drive/Eigene Projekte/MartinB134.github.io/Gastronomiebetrieb_SundD/impressum.html",
+		"/C/Users/Marti/Google Drive/Mucona GbR/Source/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5664,
+								5616
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5669,
+										5670
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5654,
+										5655
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "post.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								89
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										87,
+										88
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										23,
+										24
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/sass/custom.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4598,
+								4598
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"default_dir": "C:\\xampp2\\htdocs\\php-blog-uebung\\css\\sass",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1591.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 126.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 138.0
+	},
+	"pinned_build_system": "",
+	"project": "php_blog.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
