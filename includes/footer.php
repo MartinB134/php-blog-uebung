@@ -12,21 +12,15 @@
             <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
           </div>
 
-          <div class="p-3">
-            <h4 class="font-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-            </ol>
-          </div>
+           <h4 class="font-italic">Categories</h4>
+            <div class="p-3">
+              <ol class="list-unstyled mb-0">
+                                                               <?php if ($categories): ?>
+                                                                     <?php while ($row= $categories->fetch_assoc()) : ?>    
+              <li><a href="#"><?php echo $row['name']; ?></a></li>
+                                                                     <?php endwhile ?>
+                                                               <?php endif ?>
 
-          <div class="p-3">
-            <h4 class="font-italic">Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
             </ol>
           </div>
         </aside><!-- /.blog-sidebar -->
