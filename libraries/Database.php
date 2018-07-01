@@ -48,7 +48,7 @@
 	 */
 	
 	public function insert(){
-		$instert_row = $this->link->query($query) or die($this->linke->error.__LINE__);
+		$insert_row = $this->link->query($query) or die($this->linke->error.__LINE__);
 			//Validate INsert
 			if ($insert_row){
 				header("Location: index.php?msg=".urlencode('Record added'));

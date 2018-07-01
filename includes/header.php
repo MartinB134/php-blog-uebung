@@ -1,3 +1,61 @@
+<?php 
+
+
+include 'config/config.php';
+include 'libraries/Database.php';
+include 'helpers/format_helper.php';
+
+//Create Database
+ 
+  $db = new Database();
+
+//Create Featured Post
+ $query_feat= "SELECT * FROM posts WHERE category=2";
+ //Run Query
+ $posts_feat= $db-> select ($query_feat);
+
+
+//Create Query
+ $query= "SELECT * FROM posts WHERE category!=2";
+ //Run Query
+ $posts= $db-> select ($query);
+
+
+ //Create Query category
+ $query2= "SELECT * FROM categories";
+ //Run Query
+ $categories= $db-> select ($query2);
+
+
+ //Create Query ID=1
+ $query_id1= "SELECT * FROM categories WHERE id=1";
+ //Run Query
+ $categories_top= $db-> select ($query_id1);
+
+?>
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://png.icons8.com/office/16/000000/php-logo.png">
+
+    <title>PHP Lovers Blog</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+  </head>
+
 <body>
 
     <div class="container">
@@ -21,7 +79,7 @@
 
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
-          <a class="p-2 text-muted" href="#">All Posts</a>
+          <a class="p-2 text-muted" href="./posts.php">All Posts</a>
           <a class="p-2 text-muted" href="#">Home</a>
   
         </nav>
