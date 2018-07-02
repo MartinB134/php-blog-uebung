@@ -6,22 +6,18 @@ include '../helpers/format_helper.php';
  
 	$db = new Database();
 
-//Create Featured Post
- $query_feat= "SELECT * FROM posts WHERE category=2";
- //Run Query
- $posts_feat= $db-> select ($query_feat);
-
 
 //Create Query
- $query= "SELECT * FROM posts WHERE category!=2";
+ $query= "SELECT posts.*,categories.name FROM posts
+ INNER JOIN categories ON posts.category = categories.id";
  //Run Query
  $posts= $db-> select ($query);
 
 
  //Create Query category
- $query2= "SELECT * FROM categories";
+ $query= "SELECT * FROM categories";
  //Run Query
- $categories= $db-> select ($query2);
+ $categories= $db-> select ($query);
 
 
  //Create Query ID=1

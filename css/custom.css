@@ -16,6 +16,10 @@
 #jumbotron-costum {
   padding: 5rem !important; }
 
+#categories-table {
+  width: 32.7%;
+  margin: 35px auto; }
+
 .readmore {
   display: block;
   text-align: center; }

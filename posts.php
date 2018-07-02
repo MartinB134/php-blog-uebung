@@ -8,7 +8,7 @@ include 'includes/header.php';
  if(isset($_GET['category'])){
   $category = $_GET['category'];
   //Create Query
- $query= "SELECT * FROM posts WHERE category =".$category;
+ $query= "SELECT * FROM posts WHERE category = ".$category;
   //Run Query
  $posts= $db-> select ($query);
 } else {
@@ -59,6 +59,6 @@ include 'includes/header.php';
              <?php endwhile; ?>
         <?php else : ?>
       <?php endif ?> 
-</div>
+
 
           <?php include 'includes/footer.php'; ?>

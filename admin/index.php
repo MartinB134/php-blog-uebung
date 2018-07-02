@@ -13,21 +13,24 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-    			<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+
+      <?php while($row = $posts->fetch_assoc()) : ?>
+      	<tr>
+    			<td><?php echo $row['ID'] ?></td>
+					<td><a href="edit_post.php?id=<?php echo $row['ID'] ?>"><?php echo $row['title'] ?></td>
+					<td><?php echo $row['name'] ?></td>
+					<td><?php echo $row['author'] ?></td>
+					<td><?php echo formatDate($row['timestamp']) ?></td>
+					<tr>
+					<?php endwhile ?>
 				
-    <tr>
+    
   </tbody>
 </table>
 
 
 
-<table class="table table-striped table-dark">
+<table id="categories-table" class="table table-striped table-dark">
   <thead>
     <tr>
       <th scope="col">Category ID#</th>
@@ -35,14 +38,12 @@
         </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-    			<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-    <tr>
+  	 <?php while($row = $categories->fetch_assoc()) : ?>
+      	<tr>
+    			<td><?php echo $row['id'] ?></td>
+					<td><a href="edit_category.php?id=<?php echo $row['ID'] ?>"><?php echo $row['name'] ?></td>
+					<tr>
+					<?php endwhile ?>
   </tbody>
 </table>
 
